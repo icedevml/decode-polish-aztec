@@ -90,17 +90,12 @@ int __acc_cdecl_main main(int argc, char *argv[])
     }
 
     ucl_uint rout_len = 0;
-    ucl_bytep outp = out;
-
-    while (read(STDIN_FILENO, outp, 1) > 0 && rout_len < out_len) {
-        ++rout_len;
-        ++outp;
-    }
+    rout_len = read(STDIN_FILENO, out, out_len);
 
 /*
  * Step 5: decompress again, now going back from `out' to `in'
  */
-    new_len = rout_len;
+    new_len = out_len;
     r = ucl_nrv2e_decompress_8(out+4,rout_len-4,in,&new_len,NULL);
 
     if (r == UCL_E_OK)
