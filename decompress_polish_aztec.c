@@ -101,7 +101,7 @@ int __acc_cdecl_main main(int argc, char *argv[])
  * Step 5: decompress again, now going back from `out' to `in'
  */
     new_len = rout_len;
-    r = ucl_nrv2e_decompress_8(out,rout_len,in,&new_len,NULL);
+    r = ucl_nrv2e_decompress_8(out+4,rout_len-4,in,&new_len,NULL);
 
     if (r == UCL_E_OK)
         for (int i = 0; i < new_len; i++) {
