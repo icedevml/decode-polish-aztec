@@ -30,3 +30,6 @@ $ xxd vehicle3.bin | head
 00000080: 0044 005a 0049 0045 004c 004e 0049 0000  .D.Z.I.E.L.N.I..
 00000090: 0041 0020 004d 004f 004b 004f 0054 00d3  .A. .M.O.K.O.T..
 ```
+
+## Friendly advice
+I would like to ask some companies not to troll me with DMCA as it was done in previous cases. Everybody in Poland should have possibility to decode vehicle cards in their's vehicle control station for **FREE**. Claiming exclusive property rights for the algorithm or library developed in '90 and released under GPL is ILLEGAL.
