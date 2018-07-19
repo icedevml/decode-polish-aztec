@@ -1,4 +1,4 @@
-/* decompress_polish_aztec.c -- decompress data from polish vehicle AZTEC code
+/* decompress_polish_aztec.c -- decompress data from Polish vehicle AZTEC code
 
    this file is an explicit modification of the following file from libucl1-dev:
 

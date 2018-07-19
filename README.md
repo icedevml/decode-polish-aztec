@@ -1,5 +1,5 @@
-# Decode AZTEC codes in polish vehicle cards
-Data in polish vehicle card AZTEC codes is encoded using NRV2E algorithm, which is open source since ca. 1996 and is part of UCL data compression library. Original copyright of the library:
+# Decode AZTEC codes in Polish vehicle cards
+Data in Polish vehicle card AZTEC codes is encoded using NRV2E algorithm, which is open source since ca. 1996 and is part of UCL data compression library. Original copyright of the library:
 
 ```
 Copyright (C) 1996-2004 Markus Franz Xaver Johannes Oberhumer
